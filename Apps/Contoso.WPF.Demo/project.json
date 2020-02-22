@@ -1,7 +1,7 @@
-{
+﻿{
   "dependencies": {
-    "Microsoft.AppCenter.Analytics": "3.0.0",
-    "Microsoft.AppCenter.Crashes": "3.0.0"
+    "Newtonsoft.Json": "12.0.3",
+    "SQLitePCLRaw.bundle_green": "2.0.2"
   },
   "frameworks": {
     "net461": {}

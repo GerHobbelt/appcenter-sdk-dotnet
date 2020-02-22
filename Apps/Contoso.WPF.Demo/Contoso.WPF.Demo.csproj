@@ -110,6 +110,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SDK\AppCenterAnalytics\Microsoft.AppCenter.Analytics\Microsoft.AppCenter.Analytics.csproj">
+      <Project>{0f13e444-717e-460a-bde7-8ad537f0a418}</Project>
+      <Name>Microsoft.AppCenter.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SDK\AppCenterCrashes\Microsoft.AppCenter.Crashes\Microsoft.AppCenter.Crashes.csproj">
+      <Project>{302f0881-77ae-4cce-acf4-930ad5d4fb08}</Project>
+      <Name>Microsoft.AppCenter.Crashes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SDK\AppCenter\Microsoft.AppCenter\Microsoft.AppCenter.csproj">
+      <Project>{3fe04b97-48de-4895-8612-ecbdfebd917c}</Project>
+      <Name>Microsoft.AppCenter</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Contoso.UtilClassLibrary\Contoso.UtilClassLibrary.csproj">
       <Project>{A42BE92C-616D-4333-9F6A-D05BA547BFC6}</Project>
       <Name>Contoso.UtilClassLibrary</Name>

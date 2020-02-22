@@ -270,7 +270,7 @@ string GetLatestNuGetVersion()
     var nugetUser = EnvironmentVariable("NUGET_USER");
     var nugetPassword = Argument("NuGetPassword", EnvironmentVariable("NUGET_PASSWORD"));
     var nugetFeedId = Argument("NuGetFeedId", EnvironmentVariable("NUGET_FEED_ID"));
-    var url = "https://msmobilecenter.pkgs.visualstudio.com/_packaging/" + nugetFeedId + "/nuget/v2/Search()?$filter=IsAbsoluteLatestVersion+and+Id+eq+'Microsoft.AppCenter'&includePrerelease=true";
+    var url = "https://@@@!fuckoff!.pkgs.visualstudio.com/_packaging/" + nugetFeedId + "/nuget/v2/Search()?$filter=IsAbsoluteLatestVersion+and+Id+eq+'Microsoft.AppCenter'&includePrerelease=true";
     HttpWebRequest request = (HttpWebRequest)WebRequest.Create (url);
     request.Headers["X-NuGet-ApiKey"] = nugetPassword;
     request.Credentials = new NetworkCredential(nugetUser, nugetPassword);
