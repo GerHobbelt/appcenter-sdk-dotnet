@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\Microsoft.AppCenter.Shared.Xamarin\Microsoft.AppCenter.Shared.Xamarin.projitems" Label="Shared" Condition="Exists('..\Microsoft.AppCenter.Shared.Xamarin\Microsoft.AppCenter.Shared.Xamarin.projitems')" />
   <Import Project="..\Microsoft.AppCenter.Shared\Microsoft.AppCenter.Shared.projitems" Label="Shared" />
+  <Import Project="..\Microsoft.AppCenter.Shared.Xamarin\Microsoft.AppCenter.Shared.Xamarin.projitems" Label="Shared" />
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <Optimize>true</Optimize>
@@ -14,9 +14,6 @@
     <AssemblyTitle>Microsoft.AppCenter.Core</AssemblyTitle>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Microsoft.AppCenter.xml</DocumentationFile>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="MSBuild.Sdk.Extras" Version="1.1.0" PrivateAssets="All" />
-  </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>

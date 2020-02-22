@@ -14,9 +14,6 @@
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Microsoft.AppCenter.Push.xml</DocumentationFile>
     <Description />
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="MSBuild.Sdk.Extras" Version="1.1.0" PrivateAssets="All" />
-  </ItemGroup>
   <Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
   <Target Name="GetPackagingOutputs" />
 </Project>

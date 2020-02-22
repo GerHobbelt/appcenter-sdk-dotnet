@@ -118,6 +118,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.AppCenter.Test.Wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.UtilClassLibrary", "Apps\Contoso.UtilClassLibrary\Contoso.UtilClassLibrary.csproj", "{A42BE92C-616D-4333-9F6A-D05BA547BFC6}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.AppCenter.Shared.Xamarin", "SDK\AppCenter\Microsoft.AppCenter.Shared.Xamarin\Microsoft.AppCenter.Shared.Xamarin.shproj", "{7076E711-FE72-4EC0-8335-045EEFC1100C}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Tests\Microsoft.AppCenter.Test.WindowsDesktop.Shared\Microsoft.AppCenter.Test.WindowsDesktop.Shared.projitems*{09f38506-8def-431d-a749-df7e73a719f0}*SharedItemsImports = 13
@@ -134,6 +136,7 @@ Global
 		SDK\AppCenter\Microsoft.AppCenter.Shared\Microsoft.AppCenter.Shared.projitems*{3fe04b97-48de-4895-8612-ecbdfebd917c}*SharedItemsImports = 4
 		SDK\AppCenterDistribute\Microsoft.AppCenter.Distribute.Shared\Microsoft.AppCenter.Distribute.Shared.projitems*{41febc72-c12b-47e1-b6f6-51d50158c825}*SharedItemsImports = 4
 		SDK\AppCenterDistribute\Microsoft.AppCenter.Distribute.Shared\Microsoft.AppCenter.Distribute.Shared.projitems*{5aef073d-7370-41c1-86cd-a61b4deb9883}*SharedItemsImports = 13
+		SDK\AppCenter\Microsoft.AppCenter.Shared.Xamarin\Microsoft.AppCenter.Shared.Xamarin.projitems*{7076e711-fe72-4ec0-8335-045eefc1100c}*SharedItemsImports = 13
 		SDK\AppCenterAnalytics\Microsoft.AppCenter.Analytics.Windows.Shared\Microsoft.AppCenter.Analytics.Windows.Shared.projitems*{7ce5bf9e-3650-4151-8b54-c1301aa73606}*SharedItemsImports = 13
 		SDK\AppCenterPush\Microsoft.AppCenter.Push.Shared\Microsoft.AppCenter.Push.Shared.projitems*{8072449c-c6a8-4b36-87dc-173f295d161c}*SharedItemsImports = 4
 		SDK\AppCenterPush\Microsoft.AppCenter.Push.Windows.Shared\Microsoft.AppCenter.Push.Windows.Shared.projitems*{8072449c-c6a8-4b36-87dc-173f295d161c}*SharedItemsImports = 4
@@ -955,6 +958,7 @@ Global
 		{2FFFF8C2-E190-4B83-9AD8-19F0E2AC6088} = {BC900C35-E0AD-46D2-BA4A-EF1904820B4A}
 		{09F38506-8DEF-431D-A749-DF7E73A719F0} = {BC900C35-E0AD-46D2-BA4A-EF1904820B4A}
 		{A42BE92C-616D-4333-9F6A-D05BA547BFC6} = {AA6821F3-930A-49E4-BA3F-D68255F39F1E}
+		{7076E711-FE72-4EC0-8335-045EEFC1100C} = {A0839AAC-BC4D-4DDE-9ACB-C094BC599C16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {328868E2-F749-412D-B82F-84A683A1719C}

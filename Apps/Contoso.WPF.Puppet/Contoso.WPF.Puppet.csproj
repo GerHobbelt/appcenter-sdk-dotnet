@@ -110,17 +110,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SDK\AppCenterAnalytics\Microsoft.AppCenter.Analytics.WindowsDesktop\Microsoft.AppCenter.Analytics.WindowsDesktop.csproj">
-      <Project>{1f6c139a-29bb-4e74-8df2-f8ccab399a67}</Project>
-      <Name>Microsoft.AppCenter.Analytics.WindowsDesktop</Name>
+    <ProjectReference Include="..\..\SDK\AppCenterAnalytics\Microsoft.AppCenter.Analytics\Microsoft.AppCenter.Analytics.csproj">
+      <Project>{0f13e444-717e-460a-bde7-8ad537f0a418}</Project>
+      <Name>Microsoft.AppCenter.Analytics</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SDK\AppCenterCrashes\Microsoft.AppCenter.Crashes.WindowsDesktop\Microsoft.AppCenter.Crashes.WindowsDesktop.csproj">
-      <Project>{dc55c086-714d-4e2f-b6ce-3c14bc3b6646}</Project>
-      <Name>Microsoft.AppCenter.Crashes.WindowsDesktop</Name>
+    <ProjectReference Include="..\..\SDK\AppCenterCrashes\Microsoft.AppCenter.Crashes\Microsoft.AppCenter.Crashes.csproj">
+      <Project>{302f0881-77ae-4cce-acf4-930ad5d4fb08}</Project>
+      <Name>Microsoft.AppCenter.Crashes</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SDK\AppCenter\Microsoft.AppCenter.WindowsDesktop\Microsoft.AppCenter.WindowsDesktop.csproj">
-      <Project>{1e9ec0aa-3e32-4551-80c4-e4f3e53d7590}</Project>
-      <Name>Microsoft.AppCenter.WindowsDesktop</Name>
+    <ProjectReference Include="..\..\SDK\AppCenter\Microsoft.AppCenter\Microsoft.AppCenter.csproj">
+      <Project>{3fe04b97-48de-4895-8612-ecbdfebd917c}</Project>
+      <Name>Microsoft.AppCenter</Name>
     </ProjectReference>
     <ProjectReference Include="..\Contoso.UtilClassLibrary\Contoso.UtilClassLibrary.csproj">
       <Project>{A42BE92C-616D-4333-9F6A-D05BA547BFC6}</Project>

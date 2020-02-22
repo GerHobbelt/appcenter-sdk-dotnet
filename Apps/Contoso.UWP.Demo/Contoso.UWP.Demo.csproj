@@ -152,12 +152,25 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.0.0" />
-    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="3.0.0" />
-    <PackageReference Include="Microsoft.AppCenter.Push" Version="3.0.0" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.9" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SDK\AppCenterAnalytics\Microsoft.AppCenter.Analytics.UWP\Microsoft.AppCenter.Analytics.UWP.csproj">
+      <Project>{200073bf-fa7e-42af-8ed5-aa50be7c0295}</Project>
+      <Name>Microsoft.AppCenter.Analytics.UWP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SDK\AppCenterCrashes\Microsoft.AppCenter.Crashes.UWP\Microsoft.AppCenter.Crashes.UWP.csproj">
+      <Project>{2f715d51-643c-4f7f-9ea4-6554d4eeccb2}</Project>
+      <Name>Microsoft.AppCenter.Crashes.UWP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SDK\AppCenterPush\Microsoft.AppCenter.Push.UWP\Microsoft.AppCenter.Push.UWP.csproj">
+      <Project>{8072449c-c6a8-4b36-87dc-173f295d161c}</Project>
+      <Name>Microsoft.AppCenter.Push.UWP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SDK\AppCenter\Microsoft.AppCenter.UWP\Microsoft.AppCenter.UWP.csproj">
+      <Project>{15e3fc9b-7714-4468-a296-81627a5b8f01}</Project>
+      <Name>Microsoft.AppCenter.UWP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Contoso.UtilClassLibrary\Contoso.UtilClassLibrary.csproj">
       <Project>{A42BE92C-616D-4333-9F6A-D05BA547BFC6}</Project>
       <Name>Contoso.UtilClassLibrary</Name>
