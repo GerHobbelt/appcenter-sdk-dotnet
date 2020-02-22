@@ -38,10 +38,12 @@ namespace Microsoft.AppCenter
 
         static void PlatformSetLogUrl(string logUrl)
         {
+            Debug.WriteLine(ErrorMessage);
         }
 
         static void PlatformSetUserId(string userId)
         {
+            Debug.WriteLine(ErrorMessage);
         }
 
         static bool PlatformConfigured { get; }
@@ -63,10 +65,25 @@ namespace Microsoft.AppCenter
 
         static void PlatformSetCustomProperties(CustomProperties customProperties)
         {
+            Debug.WriteLine(ErrorMessage);
         }
 
         internal static void PlatformUnsetInstance()
         {
+        }
+
+        /// <summary>
+        /// Sets the two-letter ISO country code to send to the backend.
+        /// </summary>
+        /// <param name="countryCode">The two-letter ISO country code. See <see href="https://www.iso.org/obp/ui/#search"/> for more information.</param>
+        public static void SetCountryCode(string countryCode)
+        {
+            if (countryCode != null && countryCode.Length != 2)
+            {
+                AppCenterLog.Error(AppCenterLog.LogTag, "App Center accepts only the two-letter ISO country code.");
+                return;
+            }
+            Debug.WriteLine(ErrorMessage);
         }
     }
 }
